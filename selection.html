@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeweler Website - Image Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Jewelry Selection</h2>
+		 <div class="image-grid">
+        
+            <img id="jewelry-img" src="lehenga1.jpeg" alt="Jewelry Image">       		
+            <img id="jewelry-img" src="gown2.jpeg" alt="Jewelry Image">        		
+            <img id="jewelry-img" src="saree1.jpeg" alt="Jewelry Image">
+        </div>
+		
+        <div class="navigation">
+            <button onclick="changeJewelry('lehenga')">Lehenga</button>
+            <button onclick="changeJewelry('gown')">Gown</button>
+            <button onclick="changeJewelry('saree')">Saree</button>
+            <button onclick="window.location.href='filter.html'">Back to Filter Page</button>
+            <button onclick="window.location.href='checklist.html'">Create List</button>
+        </div>
+    </div>
+    <footer>
+        © Titan Company Ltd.
+    </footer>
+</body>
+</html>

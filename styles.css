@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+	color: red;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.jeweler-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: small;
+    text-align: center;
+}
